@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         name="pmd-secureCoding"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+   <description>PMD Plugin preferences rule set</description>
+   <rule ref="rulesets/java/sunsecure.xml/ArrayIsStoredDirectly"/>
+   <rule ref="rulesets/java/strictexception.xml/AvoidCatchingGenericException"/>
+   <rule ref="rulesets/java/strictexception.xml/AvoidCatchingNPE"/>
+   <rule ref="rulesets/java/strictexception.xml/AvoidCatchingThrowable"/>
+   <rule ref="rulesets/java/logging-java.xml/AvoidPrintStackTrace"/>
+   <rule ref="rulesets/java/basic.xml/BrokenNullCheck"/>
+   <rule ref="rulesets/java/design.xml/CloseResource"/>
+   <rule ref="rulesets/java/j2ee.xml/DoNotCallSystemExit"/>
+   <rule ref="rulesets/java/j2ee.xml/DoNotUseThreads"/>
+   <rule ref="rulesets/java/basic.xml/DontCallThreadRun"/>
+   <rule ref="rulesets/java/basic.xml/DoubleCheckedLocking"/>
+   <rule ref="rulesets/java/empty.xml/EmptyCatchBlock"/>
+   <rule ref="rulesets/java/empty.xml/EmptyFinallyBlock"/>
+   <rule ref="rulesets/java/sunsecure.xml/MethodReturnsInternalArray"/>
+   <rule ref="rulesets/java/basic.xml/MisplacedNullCheck"/>
+   <rule ref="rulesets/java/basic.xml/OverrideBothEqualsAndHashcode"/>
+   <rule ref="rulesets/java/design.xml/PositionLiteralsFirstInComparisons"/>
+   <rule ref="rulesets/java/design.xml/UseNotifyAllInsteadOfNotify"/>
+   <rule ref="rulesets/java/j2ee.xml/UseProperClassLoader"/>
+</ruleset>
